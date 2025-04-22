@@ -6,7 +6,7 @@ git clone git@github.com:burncloud/wei-build.git
 git clone git@github.com:burncloud/wei-windows.git
 git clone git@github.com:burncloud/wei-run.git
 git clone git@github.com:burncloud/wei-server.git
-git clone git@github.com:burncloud/wei-release.git
+git clone --depth 1 git@github.com:burncloud/wei-release.git
 git clone git@github.com:burncloud/wei-updater.git
 git clone git@github.com:burncloud/wei-daemon.git
 git clone git@github.com:burncloud/wei-download.git

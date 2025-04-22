@@ -1,5 +1,6 @@
 @echo off
 
+cd %USERPROFILE%\Work
 git clone git@github.com:burncloud/wei.git
 git clone git@github.com:burncloud/wei-build.git
 git clone git@github.com:burncloud/wei-windows.git
@@ -23,7 +24,8 @@ git clone git@github.com:burncloud/wei-api.git
 git clone git@github.com:burncloud/wei-file.git
 git clone git@github.com:burncloud/wei-disk.git
 git clone git@github.com:burncloud/wei-docker-install.git
-
+git clone git@github.com:burncloud/wei-ui.git
+git clone git@github.com:burncloud/wei-ui-vue.git
 
 
 :: Check for admin privileges
